@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">            
+    <title>Document</title>
+</head>
+<body>
+    <section class="draggable-elements">
+        <i class="fas fa-bicycle draggable" draggable="true" style="color:rgb(255, 0, 0)" id="cycle"></i>
+        <i class="fas fa-car draggable" draggable="true" style="color:rgb(255, 0, 0)" id="cars"></i>
+        <i class="fas fa-plane draggable" draggable="true" style="color:rgb(255, 0, 0)" id="plane"></i>
+    </section>
+    <section class="droppable-elements">
+        <div class="droppable" data-draggable-id="cycle"><span>TwoWhell</span></div>
+        <div class="droppable" data-draggable-id="cars"><span>FourWhell</span></div>
+        <div class="droppable" data-draggable-id="plane"><span>Flyer</span></div>
+    </section>
+</body>
+<script src="/script.js"></script>
+</html>
